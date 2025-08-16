@@ -1,0 +1,18 @@
+{
+  "name": "trav-rss",
+  "version": "1.0.0",
+  "description": "rss reader made by trav",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "ts-node src/index.ts && open output.html"
+  },
+  "author": "Travis Dixon",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.3.0"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.5"
+  }
+}
